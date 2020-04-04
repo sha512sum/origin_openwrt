@@ -6,3 +6,4 @@ git clone https://github.com/tty228/luci-app-serverchan package/own-apps/luci-ap
 
 git clone https://github.com/Lienol/openwrt-package package/Lienol-package
 
+https://github.com/sha512sum/some_package.git package/some_package

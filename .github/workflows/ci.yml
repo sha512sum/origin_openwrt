@@ -51,11 +51,9 @@ jobs:
       env:
         CONFIG_FILE: 'config.speed'
         SCRIPTS_FILE: 'scripts.sh'
-	FOLDER: 'OtherPackage'
       run: |
         [ -e files ] && mv files openwrt/files
         [ -e $CONFIG_FILE ] && mv $CONFIG_FILE openwrt/.config
-	[ -e $FOLDER ] && mv $FOLDER openwrt/package/
         chmod +x $SCRIPTS_FILE
         cd openwrt
         ../$SCRIPTS_FILE
