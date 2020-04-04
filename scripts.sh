@@ -1,7 +1,8 @@
 #!/bin/bash
 
-git clone --depth 1 https://github.com/coolsnowwolf/lede.git package/lede
-cp -r package/lede/package/lean/luci-app-flowoffload package/ownapps/luci-app-flowoffload
-cp -r package/lede/package/lean/pdnsd-alt package/ownapps/pdnsd-alt
-cp -r package/lede/package/lean/openwrt-fullconenat package/ownapps/openwrt-fullconenat
-rm -rf package/lede
+git clone https://github.com/Mrbai98/luci-theme-atmaterial package/own-apps/luci-theme-atmaterial
+
+git clone https://github.com/tty228/luci-app-serverchan package/own-apps/luci-app-serverchan
+
+git clone https://github.com/Lienol/openwrt-package package/Lienol-package
+
